@@ -8,19 +8,19 @@
 
 **To Install:**
 
-1) Extract the .zip file
-2) Run **install.exe**
+1) Download and extract the .zip file
+2) Run **install.bat**
 3) Done!
 
 **To Remove:**
 
-In the same folder, run **uninstall.exe**
+In the same folder, run **uninstall.bat**
 
 Or, if you deleted it:
 
 1) Locate your SteamVR Directory (Usually _C:\Program Files (x86)\Steam\steamapps\common\SteamVR_)
 2) Go to _drivers\bifrost_
-3) Run **uninstall.exe**
+3) Run **uninstall.bat**
 
 # How To Use
 

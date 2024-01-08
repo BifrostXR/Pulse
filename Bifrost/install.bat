@@ -24,10 +24,23 @@ REM Copy the entire folder to the destination
 echo Copying files...
 xcopy /Q /E /Y "%DRIVER_SRC%" "%DRIVER_DEST%"
 
+rem Check the exit code of xcopy
+if %errorlevel% neq 0 (
+    echo File copy failed! Error code: %errorlevel%
+    pause
+    exit /b %errorlevel%
+) else (
+    echo Files copied successfully!
+)
+
 echo Installing Driver...
 "%VRPATHREG_PATH%" adddriver "%DRIVER_DEST%"
-"%VRPATHREG_PATH%"
 
-echo Driver Installed!
+rem Check the exit code
+if %errorlevel% neq 0 (
+    echo Installation failed! Error code: %errorlevel%
+) else (
+    echo Driver Installed!
+)
 
 pause

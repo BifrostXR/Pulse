@@ -1,0 +1,9 @@
+Changelog - v0.1.48-beta
+
+- Changed alignment to a timer instead of toggle
+- Added sound effects to calibration and alignment timers
+- Resolved crashing when exiting UI
+- Added installer debugging
+- Fixed calibraton and alignment not saving
+- Modules now return to home position when closing SteamVR
+- Exiting the UI now deactivates the driver

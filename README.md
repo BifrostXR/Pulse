@@ -1,3 +1,5 @@
+![alt text](https://drive.google.com/uc?export=download&id=1elh8oCuQ3XcnKBsewteKs-1h6Jder6ev)
+
 # Bifrost Pulse Driver
 
 **Beta SteamVR driver** for the Pulse haptic glove. This driver operates by emulating a Knuckles controller, enabling seamless integration of Pulse for titles that lack native support. Additionally, it offers basic haptic feedback, enhancing your experience with vibrations and subtle force feedback*.

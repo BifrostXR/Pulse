@@ -12,6 +12,10 @@
 2) Run **install.bat**
 3) Done!
 
+If you encounter an error while installing please make sure Steam is not running and check that the target directory is correct.
+In the case it is incorrect, please manaully copy the file "bifrost" to your SteamVR driver directory and retry the installer.
+If the issue persists, please post in the _issues_ tab!
+
 **To Remove:**
 
 In the same folder, run **uninstall.bat**
@@ -28,7 +32,7 @@ Launching SteamVR will automitically load the driver and open the user interface
 
 **Calibrate:** Used to calibrate the device to the user's hand. When the button is pressed the user will be prompted to open their hand fully and a countdown will begin (5s). Once the open pose has been measured, the user will then be prompted to make a fist. For best calibration, we recommend positioning the thumb over the other four fingers.
 
-**Align:** Used to align the mounted tracker or controller with the user's hand. Pressing the button will freeze the location of the tracker. The user can then positon their own hand to line up with the model in-game. Once the alignment feels correct, the button can be pressed again to continue tracking with the correct alligment.
+**Align:** Used to align the mounted tracker or controller with the user's hand. Pressing the button will freeze the location of the tracker and begin a countdown (10s). The user can then positon their own hand to line up with the model in-game. Once the alignment feels correct, please wait until the timer ends and tracking will resume with the correct alligment.
 
 *Note: Uninstalling the driver will also erase the user's calibration and alignment profiles.
 
@@ -42,4 +46,4 @@ As this is the beta release, there are still many features that will role out in
 
 # Troubleshooting
 
-Please report any bugs in the issues tab! For assistance please feel free to reach out on our Discord server.
+Please report any bugs in the issues tab!

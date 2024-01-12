@@ -21,26 +21,26 @@ echo Source Directory: "%DRIVER_SRC%"
 echo Destination Directory: "%DRIVER_DEST%"
 
 REM Copy the entire folder to the destination
-echo Copying files...
+echo Copying Files...
 xcopy /Q /E /Y "%DRIVER_SRC%" "%DRIVER_DEST%"
 
 rem Check the exit code of xcopy
 if %errorlevel% neq 0 (
-    echo File copy failed! Error code: %errorlevel%
+    echo File Copy Failed! Error Code: %errorlevel%
+    echo Please Manually Move the Source to Destination.
     pause
     exit /b %errorlevel%
 ) else (
-    echo Files copied successfully!
+    echo Driver Installed successfully!
+	pause
 )
 
-echo Installing Driver...
-"%VRPATHREG_PATH%" adddriver "%DRIVER_DEST%"
+rem echo Installing Driver...
+rem "%VRPATHREG_PATH%" adddriver "%DRIVER_DEST%"
 
 rem Check the exit code
-if %errorlevel% neq 0 (
-    echo Installation failed! Error code: %errorlevel%
-) else (
-    echo Driver Installed!
-)
-
-pause
+rem if %errorlevel% neq 0 (
+rem    echo Installation failed! Error code: %errorlevel%
+rem ) else (
+rem     echo Driver Installed!
+rem )

@@ -20,23 +20,23 @@ rmdir /S /Q "%DRIVER_DEST%"
 
 rem Check the exit code of rmdir
 if %errorlevel% neq 0 (
-    echo File removal failed! Error code: %errorlevel%
+    echo File Removal Failed! Error Code: %errorlevel%
     pause
     exit /b %errorlevel%
 ) else (
-    echo Files removed successfully!
+    echo Driver Removed Successfully!
 )
 
-echo Uninstalling Driver...
-"%VRPATHREG_PATH%" removedriver "%DRIVER_DEST%"
+rem echo Uninstalling Driver...
+rem "%VRPATHREG_PATH%" removedriver "%DRIVER_DEST%"
 
 rem Check the exit code
-if %errorlevel% neq 0 (
-    echo Removal failed! Error code: %errorlevel%
-    pause
-    exit /b %errorlevel%
-) else (
-    echo Driver Uninstalled!
-)
+rem if %errorlevel% neq 0 (
+rem     echo Removal failed! Error code: %errorlevel%
+rem     pause
+rem     exit /b %errorlevel%
+rem ) else (
+rem     echo Driver Uninstalled!
+rem )
 
 pause

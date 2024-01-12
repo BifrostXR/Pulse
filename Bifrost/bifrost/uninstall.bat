@@ -15,13 +15,28 @@ set "VRPATHREG_PATH=%STEAMVR_DIR%\bin\win64\vrpathreg.exe"
 
 echo Driver Directory: "%DRIVER_DEST%"
 
-echo Uninstalling Driver...
-"%VRPATHREG_PATH%" removedriver "%DRIVER_DEST%"
-"%VRPATHREG_PATH%"
-
 echo Removing Files...
 rmdir /S /Q "%DRIVER_DEST%"
 
-echo Driver Uninstalled!
+rem Check the exit code of rmdir
+if %errorlevel% neq 0 (
+    echo File Removal Failed! Error Code: %errorlevel%
+    pause
+    exit /b %errorlevel%
+) else (
+    echo Driver Removed Successfully!
+)
+
+rem echo Uninstalling Driver...
+rem "%VRPATHREG_PATH%" removedriver "%DRIVER_DEST%"
+
+rem Check the exit code
+rem if %errorlevel% neq 0 (
+rem     echo Removal failed! Error code: %errorlevel%
+rem     pause
+rem     exit /b %errorlevel%
+rem ) else (
+rem     echo Driver Uninstalled!
+rem )
 
 pause

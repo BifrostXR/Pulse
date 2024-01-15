@@ -1,11 +1,10 @@
-Changelog - v0.1.50-beta
+Changelog - v0.1.51-beta
 
-- Solved driver not loading for some users
-- Fixed tracker ID always displaying zero
-- Tracker ID textbox now shows "ID" when blank
-- A disconnected device will no longer display the last tracker ID
-- 'Esc' can now also be used to save tracker ID
-- Deleting a previously specified tracker ID reverts to controller detection
-- A tracking ID of zero (HMD) is not allowed
-- Fixed UI freezing when exiting
-- Exiting UI no longer disables devices
+- Fixed visual glitch that caused flickering
+- Haptics are now disabled by default (Enabled after calibration)
+- Input emulation is now disabled by default (Enabled after calibration)
+- Haptics will be disabled during calibration
+- Input emulation will be disabled during calibration
+- Fixed tracker override box remaining disabled for left devices
+- Added filter for invalid skeletal poses
+- Resolved pose oscillation due to improper calibration

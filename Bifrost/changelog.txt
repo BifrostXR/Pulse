@@ -1,19 +1,13 @@
-Changelog - v0.2.0-beta
+Changelog - v0.2.1-beta
 
-- Added support for custom bindings
-- Added trackpad emulation
-- Grip value now uses the average of middle, ring, and pinky fingers
-- Added thumb splay
-- Logo and version text no longer block mouse clicks
-- The window can now be moved by clicking anywhere in the UI
-- Clicking outside of a textbox now exits it
-- Changed exit and minimize icons
-- Align and calibrate buttons will be highlighted when activated
-- Resolved crashing when exiting during calibration/alignment
-- Calibration/alignment will end if the device is disconnected
-- While calibrating or aligning, all other actions will be disabled
-- Increased doc height
-- Increased button size
-- Made fonts more consistent
-- Added gradient to background
-- Fixed tooltip issues
+- Solved jittering tracker position/orientation
+- Fixed flickering when calibrating or aligning left device
+- Lowered tension during calibration
+- Added five-finger splay
+- Reversed trackpad input for left devices
+- New default splay pose
+- Optimized UI loading
+- Fixed version text overlapping minimize button
+- New tooltip for device version
+- Added support for Rev. 2 devices
+- Fixed disconnected devices displaying standby

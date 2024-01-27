@@ -40,18 +40,22 @@ At the top you will find the **tracker ID**. This is the unique ID of the tracke
 
 Below that you will find two buttons:
 
-**Calibrate:** Used to calibrate the device to the user's hand. When the button is pressed the user will be prompted to open their hand fully and a countdown will begin (5s). Once the open pose has been measured, the user will then be prompted to make a fist. For best calibration, we recommend positioning the thumb over the other four fingers.
+**Calibrate:** Used to calibrate the device to the user's hand. When the button is pressed the user will be prompted to spread their hand fully and a countdown will begin (5s). Once the pose has been measured, the user will then be prompted to flatten their hand. Please move all five fingers together while remaining open. FInally, the user will be prompted to make a fist. For best calibration, we recommend positioning the thumb under the other four fingers.
 
 **Align:** Used to align the mounted tracker or controller with the user's hand. Pressing the button will freeze the location of the tracker and begin a countdown (10s). The user can then positon their own hand to line up with the model in-game. Once the alignment feels correct, please wait until the timer ends and tracking will resume with the correct alligment.
+
+Make sure to turn up your volume! For both Calibration and Alignment, there will be audio queues so that you can perform the processes easily in VR.
 
 # Still To Come
 
 As this is the beta release, there are still many features that will role out in the coming weeks/months.
 
-1) Full splay support.
-2) Improved adaptive haptics (Including customization.)
-3) Joystick emulation and button input gestures.
+1) ~~Full splay support.~~
+2) ~~Support for custom bindings~~
+3) Adaptive haptics
+4) Joystick emulation and button input gestures.
+5) More!
 
 # Troubleshooting
 
-Please report any bugs in the issues tab!
+Please report issues in this repository's **issues tab**. Issues reported on the Discord are less likely to be seen!

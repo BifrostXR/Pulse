@@ -15,7 +15,11 @@
 	[
 		{
 			"app_key": "steam.app.438100",
-			"binding_url": "default_bindings/steam.app.438100_pulse.json"
+			"binding_url": "vrchat.json"
+		},
+		{
+			"app_key" : "application.generated.unity.pulsedemo.exe",
+			"binding_url": "native.json"
 		}
 	],
   
@@ -67,6 +71,14 @@
 		"binding_image_point" : [ 47, 86 ],
 		"order" : 7
 		},
+		"/input/pinch" : {
+		"type" : "pinch",
+		"value_source" : "/input/trigger",
+		"capsense_source" : "/input/finger/index",
+		"force_source" : "/input/trackpad",
+		"binding_image_point" : [ 27, 37 ],
+		"order" : 8
+		},
 		"/input/thumbstick" : {
 		"type" : "joystick",
 		"x": true,
@@ -75,14 +87,6 @@
 		"touch" : true,
 		"binding_image_point" : [ 31, 26 ],
 		"order" : 4
-		},
-		"/input/pinch" : {
-		"type" : "pinch",
-		"value_source" : "/input/trigger",
-		"capsense_source" : "/input/finger/index",
-		"force_source" : "/input/trackpad",
-		"binding_image_point" : [ 27, 37 ],
-		"order" : 8
 		},
 	
 		"/input/finger/index" : {
@@ -151,6 +155,27 @@
 		},
 	
 		"/output/haptic" : {
+		"type" : "vibration",
+		"binding_image_point" : [ 5, 35 ]
+		},
+		
+		"/output/finger/thumb" : {
+		"type" : "vibration",
+		"binding_image_point" : [ 5, 35 ]
+		},
+		"/output/finger/index" : {
+		"type" : "vibration",
+		"binding_image_point" : [ 5, 35 ]
+		},
+		"/output/finger/middle" : {
+		"type" : "vibration",
+		"binding_image_point" : [ 5, 35 ]
+		},
+		"/output/finger/ring" : {
+		"type" : "vibration",
+		"binding_image_point" : [ 5, 35 ]
+		},
+		"/output/finger/pinky" : {
 		"type" : "vibration",
 		"binding_image_point" : [ 5, 35 ]
 		}

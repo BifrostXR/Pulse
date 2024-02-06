@@ -1,13 +1,11 @@
-Changelog - v0.2.1-beta
+Changelog - v0.2.2-beta
 
-- Solved jittering tracker position/orientation
-- Fixed flickering when calibrating or aligning left device
-- Lowered tension during calibration
-- Added five-finger splay
-- Reversed trackpad input for left devices
-- New default splay pose
-- Optimized UI loading
-- Fixed version text overlapping minimize button
-- New tooltip for device version
-- Added support for Rev. 2 devices
-- Fixed disconnected devices displaying standby
+- SDK support!
+- Added settings tab
+- Fixed slow rendering after minimizing window
+- Heavily optimized UI
+- Fixed orientation not updating after an invalid alignment
+- Switched to localized naming scheme for inputs
+- Fixed output frequency and amplitude being miscalculated
+- For non-native apps, only vibration haptics will be enabled
+- Splay is now disabled by default

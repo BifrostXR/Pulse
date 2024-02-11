@@ -15,11 +15,15 @@
 	[
 		{
 			"app_key": "steam.app.438100",
-			"binding_url": "vrchat.json"
+			"binding_url": "default_bindings/vrchat.json"
 		},
 		{
 			"app_key" : "application.generated.unity.pulsedemo.exe",
-			"binding_url": "native.json"
+			"binding_url": "default_bindings/native.json"
+		},
+		{
+			"app_key" : "steam.app.250820",
+			"binding_url": "default_bindings/steamvr.json"
 		}
 	],
   

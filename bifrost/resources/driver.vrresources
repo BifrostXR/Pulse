@@ -1,0 +1,18 @@
+{
+	"jsonid" : "vrresources",
+	"statusicons" : 
+	{
+		"LeftController" : 
+		{
+			"Prop_NamedIconPathDeviceOff_String" : "{bifrost}/icons/left_controller_status_off@2x.png",
+			"Prop_NamedIconPathDeviceReady_String" : "{bifrost}/icons/left_controller_status_ready@2x.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{bifrost}/icons/left_controller_status_standby@2x.png"
+		},
+		"RightController" : 
+		{
+			"Prop_NamedIconPathDeviceOff_String" : "{bifrost}/icons/right_controller_status_off@2x.png",
+			"Prop_NamedIconPathDeviceReady_String" : "{bifrost}/icons/right_controller_status_ready@2x.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{bifrost}/icons/right_controller_status_standby@2x.png"
+		}
+    }	    
+}

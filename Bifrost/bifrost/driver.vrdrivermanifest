@@ -1,7 +1,0 @@
-{
-	"alwaysActivate": true,
-	"name" : "bifrost",
-	"directory" : "",
-	"resourceOnly" : false,
-	"hmd_presence" : []
-}

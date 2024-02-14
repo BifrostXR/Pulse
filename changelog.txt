@@ -1,5 +1,7 @@
-Changelog - v0.2.3-beta
+Changelog - v0.2.4-beta
 
-- Added stiffness slider to settings tab
-- Fixed virtual spring endpoints not updating with calibrated profile
-- Added tooltips for settings
+- Experimental feature "Feel Controller" adds force feedback for actions such as pressing the trigger
+- Added ability to force tracker to the playspace origin during calibration
+- New button to clear user settings and calibraton profile
+- Handled out of bound haptic events from SteamVR runtime
+- Extended stiffness range

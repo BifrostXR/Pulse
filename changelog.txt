@@ -1,7 +1,7 @@
 Changelog - v0.2.4-beta
 
 - Experimental feature "Feel Controller" adds force feedback for actions such as pressing the trigger
-- Added ability to force tracker to the playspace origin during calibration
-- New button to clear user settings and calibraton profile
+- Added ability to force tracker to the play space origin during calibration
+- New button to clear user settings and calibration profile
 - Handled out of bound haptic events from SteamVR runtime
 - Extended stiffness range

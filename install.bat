@@ -5,6 +5,8 @@ FOR /F "usebackq tokens=3*" %%A IN (`REG QUERY "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6
     set "STEAMVR_DIR=%%A %%B\steamapps\common\SteamVR"
 )
 
+set "STEAMVR_DIR=%STEAMVR_DIR:Steam =Steam%"
+
 set "PWD=%cd%"
 set "DEVICE_NAME=bifrost"
 
@@ -32,15 +34,5 @@ if %errorlevel% neq 0 (
     exit /b %errorlevel%
 ) else (
     echo Driver Installed successfully!
-	pause
+    pause
 )
-
-rem echo Installing Driver...
-rem "%VRPATHREG_PATH%" adddriver "%DRIVER_DEST%"
-
-rem Check the exit code
-rem if %errorlevel% neq 0 (
-rem    echo Installation failed! Error code: %errorlevel%
-rem ) else (
-rem     echo Driver Installed!
-rem )

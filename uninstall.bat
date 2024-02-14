@@ -5,6 +5,8 @@ FOR /F "usebackq tokens=3*" %%A IN (`REG QUERY "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6
     set "STEAMVR_DIR=%%A %%B\steamapps\common\SteamVR"
 )
 
+set "STEAMVR_DIR=%STEAMVR_DIR:Steam =Steam%"
+
 set "PWD=%cd%"
 set "DEVICE_NAME=bifrost"
 

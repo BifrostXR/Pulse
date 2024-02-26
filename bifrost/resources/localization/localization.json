@@ -1,23 +1,28 @@
 [
-  {
-    "language_tag": "en_US",
-    "bifrost" : "Bifrost",
-	"pulse" : "Pulse",
-	
-	"/input/a" : "A Button",
-    "/input/b" : "B Button",
-    "/input/pinch" : "Pinch Gesture",
-	"/input/thumbstick" : "Thumbstick",
-	
-	"/input/finger/index" : "Index Finger",
-	"/input/finger/middle" : "Middle Finger",
-	"/input/finger/ring" : "Ring Finger",
-	"/input/finger/pinky" : "Pinky Finger",
-	
-	"/output/finger/thumb" : "Thumb (Haptics)",
-	"/output/finger/index" : "Index (Haptics)",
-	"/output/finger/middle" : "Middle (Haptics)",
-	"/output/finger/ring" : "Ring (Haptics)",
-	"/output/finger/pinky" : "Pinky (Haptics)"
-  }
+	{
+		"language_tag": "en_US",
+		"bifrost": "Bifrost",
+		"pulse": "Pulse",
+
+		"/input/a": "A Button",
+		"/input/b": "B Button",
+		"/input/thumbstick": "Thumbstick",
+
+		"/input/skeleton": "Skeleton",
+
+		"/input/pinch": "Pinch Gesture",
+		"/input/grab": "Grab Gesture",
+		"/input/squeeze": "Squeeze",
+
+		"/input/finger/index": "Index Finger",
+		"/input/finger/middle": "Middle Finger",
+		"/input/finger/ring": "Ring Finger",
+		"/input/finger/pinky": "Pinky Finger",
+
+		"/output/finger/thumb": "Thumb (Haptics)",
+		"/output/finger/index": "Index (Haptics)",
+		"/output/finger/middle": "Middle (Haptics)",
+		"/output/finger/ring": "Ring (Haptics)",
+		"/output/finger/pinky": "Pinky (Haptics)"
+	}
 ]

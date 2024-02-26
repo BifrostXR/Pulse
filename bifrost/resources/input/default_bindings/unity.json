@@ -1,0 +1,160 @@
+{
+  "action_manifest_version": 1,
+  "alias_info": {},
+  "app_key": "^application.generated.unity.*$",
+  "bindings": {
+    "/actions/default": {
+      "chords": [],
+      "haptics": [
+        {
+          "output": "none",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "none",
+          "path": "/user/hand/right/output/haptic"
+        },
+        {
+          "output": "/actions/default/out/index",
+          "path": "/user/hand/left/output/finger/index"
+        },
+        {
+          "output": "/actions/default/out/index",
+          "path": "/user/hand/right/output/finger/index"
+        },
+        {
+          "output": "/actions/default/out/middle",
+          "path": "/user/hand/left/output/finger/middle"
+        },
+        {
+          "output": "/actions/default/out/middle",
+          "path": "/user/hand/right/output/finger/middle"
+        },
+        {
+          "output": "/actions/default/out/pinky",
+          "path": "/user/hand/left/output/finger/pinky"
+        },
+        {
+          "output": "/actions/default/out/pinky",
+          "path": "/user/hand/right/output/finger/pinky"
+        },
+        {
+          "output": "/actions/default/out/ring",
+          "path": "/user/hand/left/output/finger/ring"
+        },
+        {
+          "output": "/actions/default/out/ring",
+          "path": "/user/hand/right/output/finger/ring"
+        },
+        {
+          "output": "/actions/default/out/thumb",
+          "path": "/user/hand/left/output/finger/thumb"
+        },
+        {
+          "output": "/actions/default/out/thumb",
+          "path": "/user/hand/right/output/finger/thumb"
+        }
+      ],
+      "poses": [
+        {
+          "output": "/actions/default/in/pose",
+          "path": "/user/hand/left/pose/raw"
+        },
+        {
+          "output": "/actions/default/in/pose",
+          "path": "/user/hand/right/pose/raw"
+        }
+      ],
+      "skeleton": [
+        {
+          "output": "/actions/default/in/skeletonlefthand",
+          "path": "/user/hand/left/input/skeleton/left"
+        },
+        {
+          "output": "/actions/default/in/skeletonrighthand",
+          "path": "/user/hand/right/input/skeleton/right"
+        }
+      ],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/grabgesture"
+            }
+          },
+          "mode": "button",
+          "parameters": {
+            "haptic_amplitude": "0"
+          },
+          "path": "/user/hand/left/input/grab"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/grabgesture"
+            }
+          },
+          "mode": "button",
+          "parameters": {
+            "haptic_amplitude": "0"
+          },
+          "path": "/user/hand/right/input/grab"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/pinchgesture"
+            }
+          },
+          "mode": "button",
+          "parameters": {
+            "haptic_amplitude": "0"
+          },
+          "path": "/user/hand/left/input/pinch"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/default/in/pinchgesture"
+            }
+          },
+          "mode": "button",
+          "parameters": {
+            "haptic_amplitude": "0"
+          },
+          "path": "/user/hand/right/input/pinch"
+        },
+        {
+          "inputs": {
+            "pull": {
+              "output": "/actions/default/in/squeeze"
+            }
+          },
+          "mode": "trigger",
+          "path": "/user/hand/left/input/squeeze"
+        },
+        {
+          "inputs": {
+            "pull": {
+              "output": "/actions/default/in/squeeze"
+            }
+          },
+          "mode": "trigger",
+          "path": "/user/hand/right/input/squeeze"
+        }
+      ]
+    }
+  },
+  "category": "steamvr_input",
+  "controller_type": "pulse",
+  "description": "Bindings required for Bifrost Unity Integration",
+  "interaction_profile": "",
+  "name": "Bifrost Unity Integration Bindings",
+  "options": {
+    "compatibility_mode": true,
+    "simulate_hmd": true,
+    "simulate_rendermodel": false,
+    "simulated_controller_type": "knuckles"
+  },
+  "simulated_actions": []
+}

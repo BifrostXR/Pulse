@@ -1,16 +1,5 @@
-Changelog - v0.2.5-beta
+Changelog - v0.2.6-beta
 
-- Fixed rumble frequency being inverted
-- Non-native apps once again trigger rumble haptics
-- Fixed SDK commands being reset
-- Added hand pose icons during calibration
-- Virtual controller haptics will be disabled when using a native application
-- Fixed rumble being falsely activated
-- Added pinch gesture for SDK
-- Added grab gesture for SDK
-- Added squeeze input for SDK
-- Increased calibration force
-- Resolved SteamVR status displaying "standby" when disconnected
-- SteamVR status will now display "searching" when Pulse is active but no tracker is found
-- Pulse no longer takes priority over controllers when disconnected
-- New art for the SteamVR binding UI
+- Reverted calibration force to pre-v0.2.5-beta
+- Custom render model for Pulse
+- Added support for batch 3 devices

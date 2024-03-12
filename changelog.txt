@@ -1,5 +1,8 @@
-Changelog - v0.2.6-beta
+Changelog - v0.2.7-beta
 
-- Reverted calibration force to pre-v0.2.5-beta
-- Custom render model for Pulse
-- Added support for batch 3 devices
+- Proper DPI scaling added to UI
+- Scaling issues fixed in settings window
+- Reorganized settings window
+- Visual changes to slider element
+- UI will now start minimized
+- Changed minimize and exit hover visuals
